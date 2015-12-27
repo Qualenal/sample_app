@@ -13,3 +13,10 @@
 /tmp
 # Ignore IDE settings
 /.idea
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore Spring files.
+/spring/*.pid
