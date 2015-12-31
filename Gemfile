@@ -5,6 +5,11 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.5'
 # Gem for password encryption
 gem 'bcrypt', '3.1.7'
+# Gem for seeding with fake users
+gem 'faker', '1.4.2'
+# Gems for pagination
+gem 'will_paginate', '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
 # Use mysql as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
