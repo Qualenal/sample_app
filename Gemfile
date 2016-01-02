@@ -10,8 +10,8 @@ gem 'faker', '1.4.2'
 # Gems for pagination
 gem 'will_paginate', '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
-# Use mysql as the database for Active Record
-gem 'sqlite3'
+
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Bootstrap
@@ -52,5 +52,11 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  gem 'sqlite3'
 end
 
+group :production do
+  gem 'rails_12factor'
+  #gem 'pg'
+end
